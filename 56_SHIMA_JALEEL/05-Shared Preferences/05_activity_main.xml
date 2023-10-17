@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/SharedPreferences"
+        android:text="MES COLLEGE OF ENGINEERING"
+        android:background="@color/purple_500"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:textSize="19dp"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:gravity="center"/>
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/SharedPreferences"
+        android:layout_marginTop="40dp"
+        android:hint="User Name"
+       />
+    <EditText
+        android:id="@+id/mobilenumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/username"
+        android:layout_marginTop="10dp"
+        android:hint="Mobile Number"
+         />
+    <EditText
+        android:id="@+id/emailaddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mobilenumber"
+        android:layout_marginTop="10dp"
+        android:hint="E-mail Address"
+        />
+    <EditText
+        android:id="@+id/enterpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/emailaddress"
+        android:layout_marginTop="10dp"
+        android:hint="Enter Password"
+        />
+    <EditText
+        android:id="@+id/retypepassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/enterpassword"
+        android:layout_marginTop="10dp"
+        android:hint="Retype Password"
+        />
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/retypepassword"
+        android:layout_centerHorizontal="true"
+        android:text="SUBMIT"
+        android:textColor="@color/white"
+       />
+</RelativeLayout>
+
+
+
+
+
+
