@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:text="MES COLLEGE OF ENGINEERING"
+        android:background="@color/design_default_color_primary"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:padding="7dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="100dp"
+        android:textAlignment="center"
+        android:id="@+id/mes"
+        />
+    <EditText
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:hint="User Name"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/mes"
+        android:id="@+id/uname"
+        />
+    <EditText
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:hint="Mobile Number"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/uname"
+        android:id="@+id/no"
+        />
+    <EditText
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:hint="Email- Address"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/no"
+        android:id="@+id/email"
+        />
+    <EditText
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/email"
+        android:id="@+id/pwd"
+        android:inputType="textPassword"
+        />
+    <EditText
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:hint="Retype Password"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/pwd"
+        android:id="@+id/rpwd"
+        android:inputType="textPassword"
+        />
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/rpwd"
+        android:text="SUBMIT"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:id="@+id/btn"
+/>
+
+</RelativeLayout>
