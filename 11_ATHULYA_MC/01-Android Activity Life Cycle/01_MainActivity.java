@@ -25,19 +25,19 @@ public class MainActivity extends AppCompatActivity {
     }
     protected void onResume()
     {
-        super.onStart();
+        super.onResume();
         Log.d("lifecycle","onResume invoked");
 
     }
     protected void onPause()
     {
-        super.onStart();
+        super.onPause();
         Log.d("lifecycle","onPause invoked");
 
     }
     protected void onStop()
     {
-        super.onStart();
+        super.onStop();
         Log.d("lifecycle","onStop invoked");
 
     }
@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
 
     protected void onDestroy()
     {
-        super.onStart();
+        super.onDestroy();
         Log.d("lifecycle","onDestroy invoked");
 
     }
