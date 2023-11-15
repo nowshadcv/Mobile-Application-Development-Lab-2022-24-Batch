@@ -188,7 +188,7 @@ public class MainActivity extends AppCompatActivity {
                 if (division==true)
                 {
                     result.setText(mValueOne / mValueTwo + "");
-                    division=true;
+                    division=false;
                 }
             }
 
